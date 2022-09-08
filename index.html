@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 7 Days To Code - 7 Dia </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ae08cf7bcb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <h1 class="title"> Calculadora </h1>
+    </header>
+
+    <main>
+        <section id="calculadora">
+            <div id="corpoCalculadora">
+                <div id="visorCalculadora">
+                    <p id="historicoVisor"></p>
+                    <p id="resultadoVisor"></p>
+                </div>
+                <div id="tecladoCalculadora">
+                    <div>
+                        <button onclick="limparTela()"><i class="fa-solid fa-c"></i></button>
+                        <button onclick="removerNumero()"><i class="fa-solid fa-square-xmark"></i></button>
+                        <button onclick="addNumber('/')"><i class="fa-solid fa-divide"></i></i></button>
+                    </div>
+                    <div>
+                        <button onclick="addNumber('7')">7</button>
+                        <button onclick="addNumber('8')">8</button>
+                        <button onclick="addNumber('9')">9</button>
+                        <button onclick="addNumber('*')"><i class="fa-solid fa-asterisk"></i></button>
+                    </div>
+                    <div>
+                        <button onclick="addNumber('4')">4</button>
+                        <button onclick="addNumber('5')">5</button>
+                        <button onclick="addNumber('6')">6</button>
+                        <button onclick="addNumber('-')"><i class="fa-solid fa-minus"></i></button>
+                    </div>
+                    <div>
+                        <button onclick="addNumber('1')">1</button>
+                        <button onclick="addNumber('2')">2</button>
+                        <button onclick="addNumber('3')">3</button>
+                        <button onclick="addNumber('+')"><i class="fa-solid fa-plus"></i></button>
+                    </div>
+                    <div>
+                        <button onclick="addNumber('0')">0</button>
+                        <button onclick="addNumber('.')">.</i></button>
+                        <button onclick="calcular()"><i class="fa-solid fa-equals"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #303437;
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* HEADER  */
+
+header {
+    margin-top: 3em;
+    text-align: center;
+}
+
+.title {
+    font-size: 42px;
+}
+
+
+/* MAIN  */
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+#calculadora {
+    margin-top: 3em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+}
+
+#corpoCalculadora {
+    width: 375px;
+    height: 550px;
+    background: #747474;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 10px 10px 10px #75E6DA;
+}
+
+#visorCalculadora {
+    width: 85%;
+    height: 55px;
+    background: #15B5B0;
+    border-radius: 20px;
+    margin: 35px 20px 50px 20px;
+    box-shadow: 2px 2px 2px #303437;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 2px 2px 8px 13px;
+    
+}
+
+button {
+    padding: 18px 20px 18px 20px;
+    border-radius: 5px;
+    margin: 10px 10px 10px 10px;
+    background: #303437;
+    color: aliceblue;
+    border: none;
+    font-size: 18px;
+}
+
+button:hover {
+    background: #1b1c1d;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px #07DAC0;
+}
+
+#resultadoVisor {
+    font-size: 1.7rem;
+}
+
+#historicoVisor {
+    font-size: 1rem;
+}
